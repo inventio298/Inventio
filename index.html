@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Videos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Discover Videos</h1>
+    <p>Share and explore content from creators</p>
+  </header>
+  <main>
+    <section id="submit">
+      <h2>Submit a Video</h2>
+      <form id="videoForm">
+        <input type="url" id="videoUrl" placeholder="YouTube Video URL" required />
+        <input type="text" id="videoDesc" placeholder="Short Description" required />
+        <button type="submit">Add Video</button>
+      </form>
+    </section>
+    <section id="videos">
+      <h2>Latest Discoveries</h2>
+      <ul id="videoList"></ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
